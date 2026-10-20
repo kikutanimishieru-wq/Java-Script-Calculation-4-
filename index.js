@@ -134,17 +134,41 @@
 // //   console.log("Гурвалжин үүсэхгүй");
 // }
 
-const account = { password: "old123", isLocked: false }
-const currentPassword= "old123"
-const newPassword = "newpass88"
-const confirmPassword = "newpass88"
+// const account = { password: "old123", isLocked: false };
+// const currentPassword = "old123";
+// const newPassword = "newpass88";
+// const confirmPassword = "newpass88";
 
+// if (account.isLocked === true) {
+//   console.log("Account is locked");
+// } else if (account.password !== currentPassword) {
+//   console.log("Incorrect password");
+// } else if (newPassword.length < 8) {
+//   console.log("Password too short");
+// } else if (newPassword !== confirmPassword) {
+//   console.log("Passwords do not match");
+// } else {
+//   account.password = newPassword;
+//   console.log("Password changed successfully");
+// }
 
-const result =
-    account.isLocked === true &&
-    account.password === currentPassword &&
-    account.newPassword.length >= 8 &&
-    account.password === confirmPassword
-      ? "Access granted"
-        : "Access denied";
-console.log (result)``
+// console.log(account.password);
+
+// const account = { password: "secret123", failedAttempts: 2, isLocked: false };
+// const enteredPassword = "wrong123";
+// if (account.isLocked === true) {
+//   console.log("Account is Locked");
+// } else if (account.password === enteredPassword) {
+//   account.failedAttempts = 0;
+//   console.log("Login succesful");
+// } else if (account.password !== enteredPassword) {
+//   account.failedAttempts++;
+//   if (account.failedAttempts >= 3) {
+//     account.isLocked = true;
+//     console.log("account locked");
+//   } else {
+//     console.log("incorrect Password");
+//   }
+// }
+// console.log(account.failedAttempts);
+// console.log(account.isLocked);
